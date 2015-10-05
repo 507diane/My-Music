@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A38C291BC2E59F00CC44FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A38C281BC2E59F00CC44FA /* AppDelegate.swift */; };
+		83A38C2B1BC2E59F00CC44FA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A38C2A1BC2E59F00CC44FA /* MasterViewController.swift */; };
+		83A38C2D1BC2E59F00CC44FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A38C2C1BC2E59F00CC44FA /* DetailViewController.swift */; };
+		83A38C301BC2E59F00CC44FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C2E1BC2E59F00CC44FA /* Main.storyboard */; };
+		83A38C321BC2E59F00CC44FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C311BC2E59F00CC44FA /* Assets.xcassets */; };
+		83A38C351BC2E59F00CC44FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C331BC2E59F00CC44FA /* LaunchScreen.storyboard */; };
+		83A38C401BC2E59F00CC44FA /* My_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A38C3F1BC2E59F00CC44FA /* My_MusicTests.swift */; };
+		83A38C4B1BC2E59F00CC44FA /* My_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A38C4A1BC2E59F00CC44FA /* My_MusicUITests.swift */; };
+		83A38C661BC2EBBB00CC44FA /* One Direction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C5A1BC2EBBB00CC44FA /* One Direction.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C671BC2EBBB00CC44FA /* Josh Groban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C5B1BC2EBBB00CC44FA /* Josh Groban.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C681BC2EBBB00CC44FA /* Billy Joel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C5C1BC2EBBB00CC44FA /* Billy Joel.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C691BC2EBBB00CC44FA /* Eva Cassidy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C5D1BC2EBBB00CC44FA /* Eva Cassidy.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C6A1BC2EBBB00CC44FA /* Aaron Neville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C5E1BC2EBBB00CC44FA /* Aaron Neville.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C6B1BC2EBBB00CC44FA /* Frank Sinatra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C5F1BC2EBBB00CC44FA /* Frank Sinatra.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C6C1BC2EBBB00CC44FA /* Harry Connick Jr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C601BC2EBBB00CC44FA /* Harry Connick Jr.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C6D1BC2EBBB00CC44FA /* Louis Armstrong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C611BC2EBBB00CC44FA /* Louis Armstrong.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C6E1BC2EBBB00CC44FA /* Michael Bublé.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C621BC2EBBB00CC44FA /* Michael Bublé.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C6F1BC2EBBB00CC44FA /* Sara Bareilles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C631BC2EBBB00CC44FA /* Sara Bareilles.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C701BC2EBBB00CC44FA /* Enya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C641BC2EBBB00CC44FA /* Enya.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C721BC2EC4000CC44FA /* Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C711BC2EC4000CC44FA /* Music.jpg */; settings = {ASSET_TAGS = (); }; };
+		83A38C761BC2F89800CC44FA /* Elton John.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A38C751BC2F89800CC44FA /* Elton John.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A38C3C1BC2E59F00CC44FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A38C1D1BC2E59E00CC44FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A38C241BC2E59E00CC44FA;
+			remoteInfo = "My Music";
+		};
+		83A38C471BC2E59F00CC44FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A38C1D1BC2E59E00CC44FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A38C241BC2E59E00CC44FA;
+			remoteInfo = "My Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83A38C251BC2E59E00CC44FA /* My Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A38C281BC2E59F00CC44FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83A38C2A1BC2E59F00CC44FA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		83A38C2C1BC2E59F00CC44FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		83A38C2F1BC2E59F00CC44FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A38C311BC2E59F00CC44FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A38C341BC2E59F00CC44FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A38C361BC2E59F00CC44FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A38C3B1BC2E59F00CC44FA /* My MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A38C3F1BC2E59F00CC44FA /* My_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_MusicTests.swift; sourceTree = "<group>"; };
+		83A38C411BC2E59F00CC44FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A38C461BC2E59F00CC44FA /* My MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A38C4A1BC2E59F00CC44FA /* My_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_MusicUITests.swift; sourceTree = "<group>"; };
+		83A38C4C1BC2E59F00CC44FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A38C5A1BC2EBBB00CC44FA /* One Direction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "One Direction.jpg"; path = "../../Images/One Direction.jpg"; sourceTree = "<group>"; };
+		83A38C5B1BC2EBBB00CC44FA /* Josh Groban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Josh Groban.jpg"; path = "../../Images/Josh Groban.jpg"; sourceTree = "<group>"; };
+		83A38C5C1BC2EBBB00CC44FA /* Billy Joel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Billy Joel.jpg"; path = "../../Images/Billy Joel.jpg"; sourceTree = "<group>"; };
+		83A38C5D1BC2EBBB00CC44FA /* Eva Cassidy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Eva Cassidy.jpg"; path = "../../Images/Eva Cassidy.jpg"; sourceTree = "<group>"; };
+		83A38C5E1BC2EBBB00CC44FA /* Aaron Neville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Aaron Neville.jpg"; path = "../../Images/Aaron Neville.jpg"; sourceTree = "<group>"; };
+		83A38C5F1BC2EBBB00CC44FA /* Frank Sinatra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Frank Sinatra.jpg"; path = "../../Images/Frank Sinatra.jpg"; sourceTree = "<group>"; };
+		83A38C601BC2EBBB00CC44FA /* Harry Connick Jr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Harry Connick Jr.jpg"; path = "../../Images/Harry Connick Jr.jpg"; sourceTree = "<group>"; };
+		83A38C611BC2EBBB00CC44FA /* Louis Armstrong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Louis Armstrong.jpg"; path = "../../Images/Louis Armstrong.jpg"; sourceTree = "<group>"; };
+		83A38C621BC2EBBB00CC44FA /* Michael Bublé.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Michael Bublé.jpg"; path = "../../Images/Michael Bublé.jpg"; sourceTree = "<group>"; };
+		83A38C631BC2EBBB00CC44FA /* Sara Bareilles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sara Bareilles.jpg"; path = "../../Images/Sara Bareilles.jpg"; sourceTree = "<group>"; };
+		83A38C641BC2EBBB00CC44FA /* Enya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Enya.jpg; path = ../../Images/Enya.jpg; sourceTree = "<group>"; };
+		83A38C711BC2EC4000CC44FA /* Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Music.jpg; path = ../../../Downloads/Music.jpg; sourceTree = "<group>"; };
+		83A38C751BC2F89800CC44FA /* Elton John.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Elton John.jpg"; path = "../../../Downloads/Elton John.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A38C221BC2E59E00CC44FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A38C381BC2E59F00CC44FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A38C431BC2E59F00CC44FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A38C1C1BC2E59E00CC44FA = {
+			isa = PBXGroup;
+			children = (
+				83A38C271BC2E59F00CC44FA /* My Music */,
+				83A38C3E1BC2E59F00CC44FA /* My MusicTests */,
+				83A38C491BC2E59F00CC44FA /* My MusicUITests */,
+				83A38C261BC2E59E00CC44FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A38C261BC2E59E00CC44FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A38C251BC2E59E00CC44FA /* My Music.app */,
+				83A38C3B1BC2E59F00CC44FA /* My MusicTests.xctest */,
+				83A38C461BC2E59F00CC44FA /* My MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A38C271BC2E59F00CC44FA /* My Music */ = {
+			isa = PBXGroup;
+			children = (
+				83A38C281BC2E59F00CC44FA /* AppDelegate.swift */,
+				83A38C2A1BC2E59F00CC44FA /* MasterViewController.swift */,
+				83A38C2C1BC2E59F00CC44FA /* DetailViewController.swift */,
+				83A38C2E1BC2E59F00CC44FA /* Main.storyboard */,
+				83A38C581BC2EB5700CC44FA /* Images */,
+				83A38C311BC2E59F00CC44FA /* Assets.xcassets */,
+				83A38C331BC2E59F00CC44FA /* LaunchScreen.storyboard */,
+				83A38C361BC2E59F00CC44FA /* Info.plist */,
+			);
+			path = "My Music";
+			sourceTree = "<group>";
+		};
+		83A38C3E1BC2E59F00CC44FA /* My MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A38C3F1BC2E59F00CC44FA /* My_MusicTests.swift */,
+				83A38C411BC2E59F00CC44FA /* Info.plist */,
+			);
+			path = "My MusicTests";
+			sourceTree = "<group>";
+		};
+		83A38C491BC2E59F00CC44FA /* My MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83A38C4A1BC2E59F00CC44FA /* My_MusicUITests.swift */,
+				83A38C4C1BC2E59F00CC44FA /* Info.plist */,
+			);
+			path = "My MusicUITests";
+			sourceTree = "<group>";
+		};
+		83A38C581BC2EB5700CC44FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				83A38C751BC2F89800CC44FA /* Elton John.jpg */,
+				83A38C711BC2EC4000CC44FA /* Music.jpg */,
+				83A38C5A1BC2EBBB00CC44FA /* One Direction.jpg */,
+				83A38C5B1BC2EBBB00CC44FA /* Josh Groban.jpg */,
+				83A38C5C1BC2EBBB00CC44FA /* Billy Joel.jpg */,
+				83A38C5D1BC2EBBB00CC44FA /* Eva Cassidy.jpg */,
+				83A38C5E1BC2EBBB00CC44FA /* Aaron Neville.jpg */,
+				83A38C5F1BC2EBBB00CC44FA /* Frank Sinatra.jpg */,
+				83A38C601BC2EBBB00CC44FA /* Harry Connick Jr.jpg */,
+				83A38C611BC2EBBB00CC44FA /* Louis Armstrong.jpg */,
+				83A38C621BC2EBBB00CC44FA /* Michael Bublé.jpg */,
+				83A38C631BC2EBBB00CC44FA /* Sara Bareilles.jpg */,
+				83A38C641BC2EBBB00CC44FA /* Enya.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A38C241BC2E59E00CC44FA /* My Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A38C4F1BC2E59F00CC44FA /* Build configuration list for PBXNativeTarget "My Music" */;
+			buildPhases = (
+				83A38C211BC2E59E00CC44FA /* Sources */,
+				83A38C221BC2E59E00CC44FA /* Frameworks */,
+				83A38C231BC2E59E00CC44FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Music";
+			productName = "My Music";
+			productReference = 83A38C251BC2E59E00CC44FA /* My Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A38C3A1BC2E59F00CC44FA /* My MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A38C521BC2E59F00CC44FA /* Build configuration list for PBXNativeTarget "My MusicTests" */;
+			buildPhases = (
+				83A38C371BC2E59F00CC44FA /* Sources */,
+				83A38C381BC2E59F00CC44FA /* Frameworks */,
+				83A38C391BC2E59F00CC44FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A38C3D1BC2E59F00CC44FA /* PBXTargetDependency */,
+			);
+			name = "My MusicTests";
+			productName = "My MusicTests";
+			productReference = 83A38C3B1BC2E59F00CC44FA /* My MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83A38C451BC2E59F00CC44FA /* My MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A38C551BC2E59F00CC44FA /* Build configuration list for PBXNativeTarget "My MusicUITests" */;
+			buildPhases = (
+				83A38C421BC2E59F00CC44FA /* Sources */,
+				83A38C431BC2E59F00CC44FA /* Frameworks */,
+				83A38C441BC2E59F00CC44FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A38C481BC2E59F00CC44FA /* PBXTargetDependency */,
+			);
+			name = "My MusicUITests";
+			productName = "My MusicUITests";
+			productReference = 83A38C461BC2E59F00CC44FA /* My MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A38C1D1BC2E59E00CC44FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					83A38C241BC2E59E00CC44FA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					83A38C3A1BC2E59F00CC44FA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 83A38C241BC2E59E00CC44FA;
+					};
+					83A38C451BC2E59F00CC44FA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 83A38C241BC2E59E00CC44FA;
+					};
+				};
+			};
+			buildConfigurationList = 83A38C201BC2E59E00CC44FA /* Build configuration list for PBXProject "My Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A38C1C1BC2E59E00CC44FA;
+			productRefGroup = 83A38C261BC2E59E00CC44FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A38C241BC2E59E00CC44FA /* My Music */,
+				83A38C3A1BC2E59F00CC44FA /* My MusicTests */,
+				83A38C451BC2E59F00CC44FA /* My MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A38C231BC2E59E00CC44FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A38C661BC2EBBB00CC44FA /* One Direction.jpg in Resources */,
+				83A38C6B1BC2EBBB00CC44FA /* Frank Sinatra.jpg in Resources */,
+				83A38C681BC2EBBB00CC44FA /* Billy Joel.jpg in Resources */,
+				83A38C351BC2E59F00CC44FA /* LaunchScreen.storyboard in Resources */,
+				83A38C6E1BC2EBBB00CC44FA /* Michael Bublé.jpg in Resources */,
+				83A38C6A1BC2EBBB00CC44FA /* Aaron Neville.jpg in Resources */,
+				83A38C701BC2EBBB00CC44FA /* Enya.jpg in Resources */,
+				83A38C6D1BC2EBBB00CC44FA /* Louis Armstrong.jpg in Resources */,
+				83A38C321BC2E59F00CC44FA /* Assets.xcassets in Resources */,
+				83A38C691BC2EBBB00CC44FA /* Eva Cassidy.jpg in Resources */,
+				83A38C671BC2EBBB00CC44FA /* Josh Groban.jpg in Resources */,
+				83A38C761BC2F89800CC44FA /* Elton John.jpg in Resources */,
+				83A38C721BC2EC4000CC44FA /* Music.jpg in Resources */,
+				83A38C301BC2E59F00CC44FA /* Main.storyboard in Resources */,
+				83A38C6C1BC2EBBB00CC44FA /* Harry Connick Jr.jpg in Resources */,
+				83A38C6F1BC2EBBB00CC44FA /* Sara Bareilles.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A38C391BC2E59F00CC44FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A38C441BC2E59F00CC44FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A38C211BC2E59E00CC44FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A38C2D1BC2E59F00CC44FA /* DetailViewController.swift in Sources */,
+				83A38C2B1BC2E59F00CC44FA /* MasterViewController.swift in Sources */,
+				83A38C291BC2E59F00CC44FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A38C371BC2E59F00CC44FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A38C401BC2E59F00CC44FA /* My_MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A38C421BC2E59F00CC44FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A38C4B1BC2E59F00CC44FA /* My_MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A38C3D1BC2E59F00CC44FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A38C241BC2E59E00CC44FA /* My Music */;
+			targetProxy = 83A38C3C1BC2E59F00CC44FA /* PBXContainerItemProxy */;
+		};
+		83A38C481BC2E59F00CC44FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A38C241BC2E59E00CC44FA /* My Music */;
+			targetProxy = 83A38C471BC2E59F00CC44FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A38C2E1BC2E59F00CC44FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A38C2F1BC2E59F00CC44FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83A38C331BC2E59F00CC44FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A38C341BC2E59F00CC44FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A38C4D1BC2E59F00CC44FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		83A38C4E1BC2E59F00CC44FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A38C501BC2E59F00CC44FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockvalleycollege.My-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83A38C511BC2E59F00CC44FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockvalleycollege.My-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83A38C531BC2E59F00CC44FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockvalleycollege.My-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Music.app/My Music";
+			};
+			name = Debug;
+		};
+		83A38C541BC2E59F00CC44FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My MusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockvalleycollege.My-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Music.app/My Music";
+			};
+			name = Release;
+		};
+		83A38C561BC2E59F00CC44FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockvalleycollege.My-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Music";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83A38C571BC2E59F00CC44FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockvalleycollege.My-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Music";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A38C201BC2E59E00CC44FA /* Build configuration list for PBXProject "My Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A38C4D1BC2E59F00CC44FA /* Debug */,
+				83A38C4E1BC2E59F00CC44FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A38C4F1BC2E59F00CC44FA /* Build configuration list for PBXNativeTarget "My Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A38C501BC2E59F00CC44FA /* Debug */,
+				83A38C511BC2E59F00CC44FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83A38C521BC2E59F00CC44FA /* Build configuration list for PBXNativeTarget "My MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A38C531BC2E59F00CC44FA /* Debug */,
+				83A38C541BC2E59F00CC44FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83A38C551BC2E59F00CC44FA /* Build configuration list for PBXNativeTarget "My MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A38C561BC2E59F00CC44FA /* Debug */,
+				83A38C571BC2E59F00CC44FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A38C1D1BC2E59E00CC44FA /* Project object */;
+}
